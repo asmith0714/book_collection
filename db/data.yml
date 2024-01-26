@@ -1,0 +1,26 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2024-01-26 22:53:05.271750000 Z
+    - 2024-01-26 22:53:05.271750000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Clockwork Orange
+    - 2024-01-26 22:55:55.105046000 Z
+    - 2024-01-26 22:56:06.052694000 Z
