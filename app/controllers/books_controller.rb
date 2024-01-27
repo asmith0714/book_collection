@@ -17,6 +17,7 @@ class BooksController < ApplicationController
 
   # GET /books/1/edit
   def edit
+    @book = Book.find(params[:id])
   end
 
   # POST /books or /books.json
@@ -45,6 +46,11 @@ class BooksController < ApplicationController
         format.json { render json: @book.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  #
+  def delete
+    @book = Book.find(params[:id])
   end
 
   # DELETE /books/1 or /books/1.json
